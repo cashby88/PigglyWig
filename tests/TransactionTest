@@ -1,0 +1,27 @@
+import org.junit.Test;
+
+import java.security.Timestamp;
+
+import static org.junit.Assert.*;
+
+public class TransactionTest {
+
+    @Test
+    public void getTimestamp() throws exception {
+        Timestamp Timestamp = new Timestamp(localDateTime.now());
+        assertEquals(Timestamp, localDateTime.now().getTimestamp);
+    }
+
+    @Test
+    public void getType() throws exception {
+        TransactionType DEPOSIT = new TransactionType (DEPOSIT);
+        assertEquals(DEPOSIT, DEPOSIT.getType());
+    }
+
+    @Test
+    public void getAmount() throws exception {
+        double Amount;
+        assertNotNull( Amount);
+    }
+
+}
