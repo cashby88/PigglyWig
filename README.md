@@ -9,9 +9,9 @@ Balance is tested to insure that the value is NOT NULL.
 
 Testing for Bank class:
 Testing confirms that customer name corresponds to not only CustomerId, but 
-to Account ID(s) as well.
+to Account Id(s) as well.
 The removal, addition, and getting customer is then tested.
-In addition, the retrieval of customers accounts based on NAME, CustomerId, and AccountID is tested.
+In addition, the retrieval of customers accounts based on NAME, CustomerId, and AccountId is tested.
 
 
 
