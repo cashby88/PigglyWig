@@ -17,6 +17,42 @@ public class TransactionTest {
         TransactionType DEPOSIT = new TransactionType (DEPOSIT);
         assertEquals(DEPOSIT, DEPOSIT.getType());
     }
+    
+    @Test
+    public void getType() throws exception {
+        TransactionType WITHDRAWAL = new TransactionType (WITHDRAWAL);
+        assertEquals(WITHDRAWAL, WITHDRAWAL.getType());
+    }
+    
+    @Test
+    public void getType() throws exception {
+        TransactionType INTEREST = new TransactionType (INTEREST);
+        assertEquals(INTEREST, INTEREST.getType());
+    }
+    
+    @Test
+    public void getType() throws exception {
+        TransactionType CHECK = new TransactionType (CHECK);
+        assertEquals(CHECK, CHECK.getType());
+    }
+    
+    @Test
+    public void getType() throws exception {
+        TransactionType FEE = new TransactionType (FEE);
+        assertEquals(FEE, FEE.getType());
+    }
+    
+    @Test
+    public void getType() throws exception {
+        TransactionType PENALTY = new TransactionType (PENALTY);
+        assertEquals(PENALTY, PENALTY.getType());
+    }
+    
+    @Test
+    public void getType() throws exception {
+        TransactionType ADJUSTMENT = new TransactionType (ADJUSTMENT);
+        assertEquals(ADJUSTMENT, ADJUSTMENT.getType());
+    }
 
     @Test
     public void getAmount() throws exception {
