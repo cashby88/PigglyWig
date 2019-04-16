@@ -1,40 +1,40 @@
 import static org.junit.Assert.*;
 
+//Testing by MC Sotomayor, Valrico FL 2019
+
 public class BankTest {
+    private SavingsAccount savings = new SavingsAccount("Mary's Account");
+    private CheckingAccount checking = new CheckingAccount("Mary's Account2");
 
-    @org.junit.Before
-    public void setUp() throws Exception {
-    }
+    @org.junit.Test
+    public void getNAME() throws exception {
+        NAME name = new NAME("Mary");
+        assertEquals("Mary" name.getNAME());
 
-    @org.junit.After
-    public void tearDown() throws Exception {
     }
 
     @org.junit.Test
-    public void main() {
+    public void getAllAccounts() throws exception {
+        assertEquals("Mary's Account", SavingsAccount, "Mary's Account2", CheckingAccount);
     }
 
     @org.junit.Test
-    public void getNAME() {
+    public void addCustomer() throws exception {
+        assertEquals ("Mary", name.getNAME(), "Mary's Account", CustomerId());
     }
 
     @org.junit.Test
-    public void getAllAccounts() {
+    public void removeCustomer() throws exception {
+        assertEquals ("Mary", name.getNAME());
     }
 
     @org.junit.Test
-    public void addCustomer() {
+    public void getCustomer() throws exception {
+        assertEquals ("Mary", name.getNAME());
     }
 
     @org.junit.Test
-    public void removeCustomer() {
-    }
-
-    @org.junit.Test
-    public void getCustomer() {
-    }
-
-    @org.junit.Test
-    public void getCustomersAccounts() {
+    public void getCustomersAccounts() throws exception {
+        assertEquals("Mary's Account", SavingsAccount, "Mary's Account2", CheckingAccount);
     }
 }

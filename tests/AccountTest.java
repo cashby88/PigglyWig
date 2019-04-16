@@ -1,6 +1,6 @@
 import static org.junit.Assert.*;
 
-
+//Testing by MC Sotomayor Valrico, FL 2019
 
 public class AccountTest {
 
@@ -27,7 +27,7 @@ public class AccountTest {
     @org.junit.Test
     public void getCustomerId() throws exception {
         CustomerId customer = new Customer("Mary's Account");
-        assertEquals("Mary's Account", CustomerId);
+        assertEquals("Mary's Account", CustomerId());
     }
 
 
