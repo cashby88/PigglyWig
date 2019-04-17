@@ -35,4 +35,17 @@ public class AccountTest {
     public void equals() throws exception {
         assertEquals("Mary's Account", AccountId(), CustomerId());
     }
+    //Test by C Ashby Tampa, FL 2019
+    @Test
+    public void getTransaction() throws exception {
+        List<Transaction> TransList = new ArrayList<Transaction> ();
+
+        list.add(getAccountId());
+        list.add(getCustomerId());
+        list.add(withdraw.amount);
+        list.add(deposit.amount);
+        list.add(getBalance());
+
+        assertNull(Transaction);
+    }
 }
